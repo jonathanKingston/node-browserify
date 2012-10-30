@@ -1,1 +1,2 @@
-// nothing to see here... no file methods for the browser
+var fs = module.exports;
+fs.readFileSync = function(){};
