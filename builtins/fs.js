@@ -30,8 +30,6 @@ fs.readFileSync = function(file) {
 //
 //   var mode = 438; /* mode=0666 */
 
-console.log('fs');
-
 var util = require('util');
 var Buffer = require('buffer').Buffer;
 var pathModule = require('path');

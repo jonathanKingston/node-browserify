@@ -132,3 +132,8 @@ exports.basename = function(path, ext) {
 exports.extname = function(path) {
   return splitPathRe.exec(path)[3] || '';
 };
+
+
+exports._makeLong = function(path) {
+  return path;  //TODO check if windows is still breathing: https://github.com/joyent/node/blob/master/lib/path.js#L430 
+};
